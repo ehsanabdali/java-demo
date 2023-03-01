@@ -4,3 +4,4 @@ function greet(name: string){
     console.log(`Hello +name.toUpperCase(${name}) !!`);
 }
 greet("Ehsan Abdali");
+// remarks

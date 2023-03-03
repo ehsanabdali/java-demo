@@ -6,4 +6,4 @@ const testIntConst = 100;
 const testStringConst = "String Initilised with Const"
 console.log(typeof testIntLet);
 console.log(typeof testStringLet);
-console.log('Variables initialized with let : Hi ,'+testStringLet+" ,"+testIntVar);
+console.log('Variables initialized with let : Hi ,'+testStringLet+" ,"+testIntVar);git

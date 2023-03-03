@@ -1,3 +1,3 @@
 var myName = "Abdali";
-var hello = "Hello "+myName;
-console.log(hello);
+var hello = "Hello ";
+console.log(`${hello}, Mr. ${myName}`);

@@ -1,10 +1,10 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 function sum(num1, num2) {
-    let num = num1 + num2;
+    var num = num1 + num2;
     return num;
 }
 //let sum1 () => 2+2;
-//console.log(sum(2,3));
-let sum1 = () => 4 + 4;
-console.log(sum1);
+console.log(sum(2, 3));
+var sum1 = function () { return 4 + 4; };
+console.log(sum1());

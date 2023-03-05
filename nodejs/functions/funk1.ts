@@ -5,9 +5,9 @@ function sum(num1: number, num2:number): number {
 }
 
 //let sum1 () => 2+2;
-//console.log(sum(2,3));
+console.log(sum(2,3));
 
 let sum1= () => 4+4;
-console.log(sum1)
+console.log(sum1())
 
 export{};

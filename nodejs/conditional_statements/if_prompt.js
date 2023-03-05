@@ -1,5 +1,6 @@
-var askValue = prompt("Where does the Pope live?");
-var correctAnswer = "Pakistan";
+"use strict";
+let askValue = prompt("Where does the Pope live?");
+let correctAnswer = "Pakistan";
 if (askValue == correctAnswer) {
     alert("Correct!");
 }

@@ -1,14 +1,15 @@
+"use strict";
 console.log("Arithatic Operators:");
-var n1 = 5;
-var n2 = 29;
-var n3 = 15;
+let n1 = 5;
+let n2 = 29;
+let n3 = 15;
 console.log("Add Op: ", n1 + n2);
 console.log("Subtract Op: ", n1 - n2);
 console.log("Division Op: ", n2 / n1);
-console.log("Exponent Op: ", Math.pow(n3, n1));
+console.log("Exponent Op: ", n3 ** n1);
 console.log(n2 % n1); // Modulus Operator
 console.log("Assignment Operatos:");
-var m = 10;
+let m = 10;
 console.log("m=", m);
 //m +=5;
 console.log("m=", m += 5);

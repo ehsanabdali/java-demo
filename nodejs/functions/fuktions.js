@@ -1,3 +1,4 @@
+"use strict";
 // Parameters type annotations
 //
 function greet(name) {

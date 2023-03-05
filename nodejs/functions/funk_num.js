@@ -1,3 +1,4 @@
+"use strict";
 function getFavNum() {
     return 26;
 }

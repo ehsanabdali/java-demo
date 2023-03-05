@@ -1,8 +1,9 @@
+"use strict";
 console.log("Arrow Functions:");
 //
-var sum1 = function (x, y) {
+let sum1 = (x, y) => {
     return x + y;
 };
-var sum2 = function (a, b) { return a + b; }; //we can skip return
+let sum2 = (a, b) => a + b; //we can skip return
 console.log(sum1(10, 20)); //returns 30
 console.log(sum2(10, 20));

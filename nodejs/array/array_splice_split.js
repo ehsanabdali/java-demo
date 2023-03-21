@@ -1,3 +1,4 @@
+"use strict";
 var pets = [];
 pets[0] = "Hen1";
 pets[1] = "Hen6";

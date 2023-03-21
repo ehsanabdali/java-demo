@@ -1,4 +1,5 @@
-var nuM1 = 10;
+"use strict";
+let nuM1 = 10;
 if (nuM1 < 5) {
     console.log("Num1 is less than 5");
 }

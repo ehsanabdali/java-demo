@@ -1,3 +1,4 @@
+"use strict";
 var person = {
     firstname: "Tom",
     lastname: "Hanks"

@@ -1,4 +1,3 @@
-"use strict";
 var rand1 = Math.floor(10 + Math.random() * 9);
 var rand2 = Math.floor(10 + Math.random() * 9);
 var rand3 = Math.floor(10 + Math.random() * 9);

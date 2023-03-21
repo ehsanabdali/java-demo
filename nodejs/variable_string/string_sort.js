@@ -1,7 +1,8 @@
-var str = "jehanzaib is a very smart boy ";
-var split_list = [];
-var temp = '';
-for (var i = 0; i <= str.length; i++) {
+"use strict";
+let str = "jehanzaib is a very smart boy ";
+let split_list = [];
+let temp = '';
+for (let i = 0; i <= str.length; i++) {
     if (str[i] == " ") {
         split_list.push(temp);
         temp = '';
@@ -10,15 +11,14 @@ for (var i = 0; i <= str.length; i++) {
         temp = temp + str[i];
     }
 }
-console.log(str[0]);
 console.log(split_list);
-// for (let j=0; j<split_list.length; j++){
-//     for (let i=0; i<=split_list.length ; i++){
-//         if (split_list[i] > split_list[i+1]){
-//             let temp1=split_list[i];
-//             split_list[i]=split_list[i+1];
-//             split_list[i+1]=temp1;
-//         }
-//     }
-// }
-// console.log(split_list);
+for (let j = 0; j < split_list.length; j++) {
+    for (let i = 0; i <= split_list.length; i++) {
+        if (split_list[i] > split_list[i + 1]) {
+            let temp1 = split_list[i];
+            split_list[i] = split_list[i + 1];
+            split_list[i + 1] = temp1;
+        }
+    }
+}
+console.log(split_list);

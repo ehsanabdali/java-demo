@@ -16,9 +16,9 @@ while( inputLetter.letter !== '1'){
     ]);
     let toLowerInput:string = inputLetter.letter.toLowerCase();
 if( toLowerInput == 'a' || toLowerInput == 'e'|| toLowerInput == 'i' || toLowerInput == 'o' ||  toLowerInput == 'u') {
-console.log(`\"${inputLetter.letter}\" is Wovel....`);
+console.log(`\"${inputLetter.letter}\" is a Wovel....`);
 }
 else{
-    console.log(`\"${inputLetter.letter}\" is not Wovel....`);
+    console.log(`\"${inputLetter.letter}\" is a Consonant....`);
 }
 }

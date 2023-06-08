@@ -7,6 +7,6 @@ pets[4]="Hen3";
 pets[5]="Hen2";
 console.log(pets.length,":",pets);
 console.log(pets.length,":",pets.sort());
-pets.splice(2,1,"Dog1","Dog2");
+console.log(pets.splice(2,1,"Dog1","Dog2"));
 console.log(pets.length,":",pets);
 console.log(pets.slice(2,1));

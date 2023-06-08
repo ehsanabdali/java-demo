@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .wrapper {
+      @apply font-sans bg-purple-200 p-12 text-center;
+    }
+    .menu {
+      @apply bg-white p-2 rounded-full;
+    }
+    a {
+      @apply bg-blue-100 text-gray-800 py-2 px-6 rounded-full;
+    }
+    a.active {
+      @apply bg-blue-500 text-white;
+    }
+  }
+  @layer base {
+    body {
+      @apply text-gray-800 bg-gray-100;
+    }
+    
+  }
+  
+  @layer components {
+    .container {
+      @apply w-auto max-w-none m-14;
+    }
+    .team-profile {
+      @apply text-center px-6 py-4;
+    }
+    .team-profile img {
+      @apply w-32 h-32 object-cover rounded-full object-top;
+    }
+    .team-profile h3 {
+      @apply font-bold text-xl;
+    }
+    .team-profile p {
+      @apply text-sm text-gray-600;
+    }
+  }
+  
+  

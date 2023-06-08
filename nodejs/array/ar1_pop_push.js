@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // Array of 6 elements initialized
 let frt = ["Apple", "Banana", "Orange", "Grapes", "Strawbary", "Peaches"];
 console.log("print Arary frt:", frt); // print out array ["Apple","Banana","Orange","Grapes","Strawbary","Peaches"]

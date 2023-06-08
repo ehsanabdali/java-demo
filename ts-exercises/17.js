@@ -29,7 +29,7 @@ GuestsList.splice(midOfArray, 0, "Nawaz Sharif");
 var j = GuestsList.length;
 // sending message to overspaces persons
 for (var i = 0; i < j - 2; i++) {
-    console.log("Aslam-o-Alaikam Dear ".concat(GuestsList[i], ", I can invite only two people for dinner. I am sorry I cannot invite you to the dinner."));
+    console.log("Aslam-o-Alaikam Dear ".concat(GuestsList[i], ", I can invite only two people for dinner. I am sorry I cannot invite you to the dinner due to limit."));
     GuestsList.pop();
 }
 // sending message to lucky peoples

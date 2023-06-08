@@ -1,3 +1,4 @@
+"use strict";
 // For loops
 // const loop = () => {
 //     for (let i=0; i<10; i++){
@@ -21,12 +22,12 @@
 //     console.log("not found");
 //==========================================
 //Nested for loop
-var fName = ["AA", "BB", "CC", "DD"];
-var lName = ["XX", "YY", "ZZ"];
-var fullName = [];
+const fName = ["AA", "BB", "CC", "DD"];
+const lName = ["XX", "YY", "ZZ"];
+const fullName = [];
 //
-for (var i = 0; i < fName.length; i++) {
-    for (var j = 0; j < lName.length; j++) {
+for (let i = 0; i < fName.length; i++) {
+    for (let j = 0; j < lName.length; j++) {
         fullName.push(fName[i] + lName[j]);
     }
 }
